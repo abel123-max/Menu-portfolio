@@ -55,6 +55,18 @@ box-shadow: 0px 0px 10px rgba(rgb(202, 15, 15),1),
   border: 2px solid black;
   box-shadow: 10px 5px 5px #cd0400; 
 }
+@media screen and (min-width: 375px) and (max-width: 667px) {
+  .conteneur-flex {
+      flex-flow: row wrap;
+  }
+
+  .sous-conteneur-flex {
+      margin: 0px 10px;
+  }
+}
+
+
+
 /*faire un hover pour des kunai pour les element*/
 /*mettre le sharingan pour l'écran de chargement dosier*/
   
