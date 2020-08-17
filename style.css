@@ -1,28 +1,63 @@
-/* Add a black background color to the top navigation */
-.topnav {
-    background-color:#1e4e5c;
-    overflow: hidden;
-  }
-  
-  /* Style the links inside the navigation bar */
-  .topnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 115px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  /* Change the color of links on hover */
-  .topnav a:hover {
-    background-color:#2f7a90;
-    color: black;
-  }
-  
-  /* Add a color to the active/current link */
-  .topnav a.active {
-    background-color: #4CAF50;
-    color: black;
-  }
 
+body{
+  background: url(images/bg.gif) no-repeat ;
+  background-size: cover;
+}
+.menu_nav {
+    background-color:#eba434;
+    overflow: hidden;
+    list-style-type: none;
+border-radius: 5px;    
+border:solid 2px black;
+box-shadow: 10px 5px 5px #cd0400; 
+
+
+  
+     
+  }
+  
+  .menu_bouton {
+    float: left;
+    color:red;
+
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 10px;
+    padding: auto;
+  margin-left: 100px;
+  
+  }
+  
+  .menu_nav li:hover {
+
+    color: #ffc500   ;
+    box-shadow: 0px 0px 10px #ffc500;
+  transition: 1s all ease;
+  
+  
+  }
+ul li:hover{
+background: red;
+box-shadow: 0px 0px 10px rgba(rgb(202, 15, 15),1),
+0px 0px 40px rgba(rgb(202, 15, 15),1),
+0px 0px 60px rgba(rgb(202, 15, 15),1),
+
+}
+.logo{
+  float: left;
+  border: 2px solid black;
+  box-shadow: 10px 5px 5px #cd0400; 
+
+}
+.logo1{
+  float: right;
+  border: 2px solid black;
+  box-shadow: 10px 5px 5px #cd0400; 
+}
+.chargement{
+  margin-top: 100px;
+}
+/*faire un hover pour des kunai pour les element*/
+/*mettre le sharingan pour l'écran de chargement dosier*/
+  
